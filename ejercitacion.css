@@ -1,6 +1,6 @@
+
 header{
 	text-align: justify;
-	font-family: "Sofia", sans-serif;
 }
 
 body{
@@ -11,18 +11,18 @@ footer{
 	background-color: #5DADE2;
 	color: black;
 	text-align: center;
-    font-family:"Sofia", sans-serif;
+    font-family:"Trirong", sans-serif;
 }
 
 p{
     text-align: center;
-    font-family:"Sofia", sans-serif;
+    font-family:"Trirong", sans-serif;
     font-size: 1.2em;
 }
 
 .cabecera{
     text-align: center;
-    font-family: Verdana, sans-serif;
+    font-family: "Trirong", sans-serif;
 }
 
 table{ 
@@ -37,12 +37,12 @@ li{
 }
 
 h4{
-    font-family:Verdana, sans-serif;
+    font-family:"Trirong", sans-serif;
     font-size: 1.2em;
 }
 
 table tr th{
-    font-family: sans-serif;
+    font-family: "Trirong", sans-serif;
 }
 
   /* galeria */
@@ -91,7 +91,7 @@ table tr th{
 
   nav {
     padding: 3em;
-    font-family: Verdana,sans-serif;
+    font-family: "Trirong",sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
