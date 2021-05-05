@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="ejercitacion.css" />
+	
+    <title>Soluciones Informáticas</title>
+</head>
+
+<body>
+    <div class="cabecera">
+        <h1>Soluciones Informáticas</h1>
+        <img src="https://i.pinimg.com/236x/85/52/78/85527841af5e4fcbdbece5bdcda160c5--computer-logo-computer-laptop.jpg" height="200" width="300">
+    </div>
+    
+    <header>
+		<nav>
+			<ul>
+				<li><a href="#">Hardware</a></li>
+				<li><a href="#">Software</a></li>
+				<li><a href="#">Mantenimiento</a></li>
+				<li><a href="#">Reparación</a></li>
+				<li><a href="formulario.html" Target=”BLANK” >Contacto</a></li>	
+			</ul>
+		</nav>
+	</header>
+
+    <h2>Llená este formulario para poder contactarnos y pedir nuestros productos!</h2>
+    <form action="mailto:atropeano@murialdo.edu.ar" method="post" enctype="text/plain">
+  
+        <!--input type  -->
+        <div class="input">
+         <h4>Ingrese aquí su nombre:</h4><input type="text" name="Nombre">
+        <br>
+        <h4>Ingrese su contraseña:</h4>
+          <!--input type para contraseña  -->
+        <input type = "password" name="contra" >
+        <br>
+        <!--cuadro de texto  -->
+        <h4>Comentario sobre su pedido</h4>
+        <textarea name="comentario" rows="10" cols="40">Escribe tu comentario....</textarea><br>
+        </div>
+       
+       <!--lista desplegable  -->
+       <h4>Indique en que categoría se ubica su pedido</h4>
+        <select name="Opciones">
+            <br>
+          <option value = "Hardware">Hardware</option>
+          <option value = "Software">Software</option>
+          <option value ="Mantenimiento">Mantenimiento</option>
+          <option value= "Reparación">Reparación</option>
+          </select>
+          <br>
+      
+      
+         <!--opciones  -->  
+         <h4>Indique sucursal a la que irá</h4>
+          <input type="radio" id="Villa Bosch" name="Sucursal" value="Villa Bosch" >
+          <label for= "Villa Bosch">Villa Bosch</label>
+          <br>
+            <input type="radio" id="Martin Coronado" name="Sucursal" value="Martin Coronado">
+            <label for= "Martin Coronado">Martin Coronado</label>
+           <br>  
+         <input type="radio" id="San Martin" name="Sucursal" value="San Martin">
+           <label for= "San Martin">San Martin</label>
+        <br>
+        <!--botón  -->
+        
+           <input type="submit" value="Enviar">
+        </form>
+
+    <footer>
+		<br>
+		<h4 >Contactanos <a href="mailto:lucasbruma08@gmail.com" target="blank">haciendo click acá</a> para realizar algún pedido! Tambien podes llamarnos al <i>11 1234-5678</i></h4>
+        <p>Nos encontramos en Martin Fierro 5736, Villa Bosch. <br><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.6975837705!2d-58.57507900085376!3d-34.58651786668702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb9c9bcb9398b%3A0x35435e7bba320796!2sMart%C3%ADn%20Fierro%205736%2C%20B1682ALB%20Villa%20Bosch%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1618697900887!5m2!1ses-419!2sar" width="250" height="200" style="border:2;" allowfullscreen="" loading="lazy"></iframe></p>
+		<p> Seguinos en nuestras redes!</p>
+        <a href="https://www.instagram.com/lucasbruma_/"  target= "blank"> <img src= "http://assets.stickpng.com/images/580b57fcd9996e24bc43c521.png" width="50" height="50" align="middle"></a>
+		<a href="https://www.facebook.com/lucas.brumatti/" target= "blank"> <img src= "http://assets.stickpng.com/images/584ac2d03ac3a570f94a666d.png" width="43" height="43" align="middle"> </a>
+        <br>
+		<br>
+	</footer>
+</body>
+</html>

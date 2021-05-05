@@ -1,28 +1,53 @@
-
 header{
 	text-align: justify;
+	font-family: Tahoma, sans-serif;
+}
+
+header nav{
+  padding-bottom: 8px;
+  padding-top: 10px;
 }
 
 body{
 	background-color:#D6EAF8;
 }
 
+.input, select{
+  width : 400px;
+  margin: 2px;
+}
+
+form{
+  margin: 0 auto;
+  width: 400px;
+  /* Esquema del formulario */
+  padding: 1em;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 1em;
+}
+label, select {
+  /* Tamaño y alineación uniforme */
+  display: inline-block;
+  width: 200px;
+  text-align: center;
+}
 footer{
 	background-color: #5DADE2;
 	color: black;
 	text-align: center;
-    font-family:"Trirong", sans-serif;
+  font-family:Tahoma, sans-serif;
+  margin: 10px;
 }
 
 p{
     text-align: center;
-    font-family:"Trirong", sans-serif;
+    font-family:Tahoma, sans-serif;
     font-size: 1.2em;
 }
 
 .cabecera{
     text-align: center;
-    font-family: "Audiowide", sans-serif;
+    font-family: Tahoma, sans-serif;
 }
 
 table{ 
@@ -37,12 +62,20 @@ li{
 }
 
 h4{
-    font-family:"Trirong", sans-serif;
+    font-family:Tahoma, sans-serif;
     font-size: 1.2em;
+    margin: 5px;
 }
 
+h2{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+}
+
+
+
 table tr th{
-    font-family: "Trirong", sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
   /* galeria */
@@ -91,7 +124,7 @@ table tr th{
 
   nav {
     padding: 3em;
-    font-family: "Trirong",sans-serif;
+    font-family: Tahoma,sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
